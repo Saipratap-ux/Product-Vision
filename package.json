@@ -1,0 +1,13 @@
+{
+  "name": "productvision-ai",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "serve": "npx http-server . -p 4173 -c-1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

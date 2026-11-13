@@ -1,0 +1,52 @@
+TAP version 13
+# Subtest: prompt preserves canonical product and scene
+ok 1 - prompt preserves canonical product and scene
+  ---
+  duration_ms: 0.874678
+  type: 'test'
+  ...
+# Subtest: prompt handles empty optional fields
+ok 2 - prompt handles empty optional fields
+  ---
+  duration_ms: 0.196119
+  type: 'test'
+  ...
+# Subtest: parses camelCase Gemini inline image response
+ok 3 - parses camelCase Gemini inline image response
+  ---
+  duration_ms: 0.910381
+  type: 'test'
+  ...
+# Subtest: parses snake_case image response
+ok 4 - parses snake_case image response
+  ---
+  duration_ms: 0.109771
+  type: 'test'
+  ...
+# Subtest: returns null when response has no image
+ok 5 - returns null when response has no image
+  ---
+  duration_ms: 0.150291
+  type: 'test'
+  ...
+# Subtest: validates required inputs
+ok 6 - validates required inputs
+  ---
+  duration_ms: 0.173475
+  type: 'test'
+  ...
+# Subtest: extracts base64 from data URL
+ok 7 - extracts base64 from data URL
+  ---
+  duration_ms: 0.114519
+  type: 'test'
+  ...
+1..7
+# tests 7
+# suites 0
+# pass 7
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 91.132
